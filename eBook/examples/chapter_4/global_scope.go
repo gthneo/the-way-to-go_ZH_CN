@@ -1,6 +1,6 @@
 package main
 
-var a = "G"
+var A = "G"
 
 func main() {
 	n()
@@ -8,9 +8,9 @@ func main() {
 	n()
 }
 func n() {
-	print(a)
+	print(A)
 }
 func m() {
-	a = "O"
-	print(a)
+	A = "O"
+	print(A)
 }
